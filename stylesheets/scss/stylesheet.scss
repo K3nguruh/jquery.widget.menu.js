@@ -1,0 +1,25 @@
+/****************************************************************************************************
+ * Datei: stylesheets/stylesheet.(s)css                                                             *
+ * Datum: 2024-08-04 14:50                                                                          *
+ ****************************************************************************************************/
+
+//
+// VARIABLE
+
+// Menu
+$menu-bg-color: #084085;
+$menu-txt-color: #ffffff;
+$menu-sub-bg-color: #ffffff;
+$menu-sub-txt-color: #333333;
+
+$menu-min-width: 150px;
+$menu-max-width: 200px;
+$menu-transition-duration: 0.3s;
+$menu-transition-function: linear;
+
+//
+// IMPORT
+//
+@import "basic/basic";
+
+@import "menu/menu";
